@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="OPOLOT ALLAN" content="restaurant home page">
+    <meta name="keywords" content="home,about us, contact us,our services">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | AgAllan Restaurant</title>
+    <link rel=" stylesheet " href="style.css">
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css ">
+</head>
+<body>
+    <header>
+        <div class = "logo">AgAllan</div>
+            <div class="nav-wrap">
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <div class="search-bar">
+                        <span></span>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </ul>
+            </nav>
+            <button class="menu-btn">☰</button>
+        </div>
+    </header>
+    <hr>
+    <section class="hero">
+        <div class = "content">
+            <h2><span>GOOD FOOD. GREAT MEMORIES. </span></h2>
+            <h1>Fresh Flavours, Quality Ingredients<span> & Welcoming Atmosphere</span></h1>
+            <p>Enjoy delicious meals prepared with care and served with a smile!<br>
+               Whether you are dinging in or ordering your favorite takeaway,<br>
+              we are here to make every meal special.
+            </p>
+            <div class="buttons">
+                <a href="menu.html" class="btn btn-primary"> Explore Menu</a>
+                <a href="reservations" class="btn btn-secondary">Reserve Table</a>
+            </div>
+        </div>
+        <div class="profile">
+        <img src="images/home.png" width="400px" height="400px" alt="Delicious meals at AgAllan restaurant">
+            <button class="btn delivery"> FREE DELIVERY</button>
+            <button class="btn off">20% OFF DISCOUNT</button>
+        </div>
+    </section>
+
+    <section class = "stats">
+        <div class = "stat-item">
+            <h3>24/7</h3>
+            <p>Always Here For You</p>
+        </div>
+        <div class = "stat-item">
+            <h3>100%</h3>
+            <p>Commitment To Quality</p>
+        </div>
+        <div class="stat-item">
+            <h3>Daily</h3>
+            <p>Delicious Meals Daily</p>
+        </div>
+        <div class="stat-item">
+            <h3>5-Star</h3>
+            <p>Exceptional Dining</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content ">
+            <div class="footer-section ">
+                <h4>
+                    AgAllan Restaurants
+                </h4>
+                <p> Good Food!!Great Memories!!<br>
+                    Your Enjoyment Begins With Us..
+                </p>
+            </div>
+            <div class="footer-section ">
+                <h4>Contact Us</h4>
+                <p>
+                    Location:Along Entebbe Express Highway<br>
+                    Contact: +256-708-604-4303 <br>
+                    Gmail:AgAllan@gmail.com
+                </p>
+            </div>
+            <div class="footer-section ">
+                <h4>Follow Us</h4>
+                <p>On our social media handles</p>
+                <div class="social-icons ">
+                    <a href="https://tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://twitter.com "><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://facebook.com "><i class="fa-brands fa-facebook "></i></a>
+                    <a href="https://youtube.com "><i class="fa-brands fa-youtube "></i></a>
+                </div>
+            </div>
+        </div>
+        <div class=" footer-bottom ">
+            <p>&copy; 2026 AgAllan Restaurants. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => {
+            document.querySelector('.nav-menu').classList.toggle('show');
+        });
+    </script>
+
+</body>
+</html>
